@@ -1,0 +1,17 @@
+@mixin animacja1{
+    -webkit-transition: all 1s ease-in-out;
+          -o-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
+@mixin animacja2{
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+@mixin animacja3{
+    -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+}
